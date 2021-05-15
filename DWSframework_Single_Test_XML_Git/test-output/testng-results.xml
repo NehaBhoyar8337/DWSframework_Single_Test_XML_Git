@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58669" started-at="2021-05-15T15:48:12 IST" finished-at="2021-05-15T15:49:11 IST">
+    <groups>
+    </groups>
+    <test name="TestMain" duration-ms="58669" started-at="2021-05-15T15:48:12 IST" finished-at="2021-05-15T15:49:11 IST">
+      <class name="com.cjc.DWS.Tests.MainTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="openBrowser" is-config="true" duration-ms="3002" started-at="2021-05-15T15:48:09 IST" finished-at="2021-05-15T15:48:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterUrl(java.lang.String)[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="enterUrl" is-config="true" duration-ms="2761" started-at="2021-05-15T15:48:12 IST" finished-at="2021-05-15T15:48:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://demowebshop.tricentis.com/register]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="maxWindow()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="maxWindow" is-config="true" duration-ms="139" started-at="2021-05-15T15:48:15 IST" finished-at="2021-05-15T15:48:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxWindow -->
+        <test-method status="PASS" signature="getCookies()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="getCookies" is-config="true" duration-ms="18" started-at="2021-05-15T15:48:15 IST" finished-at="2021-05-15T15:48:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="registrationTest" duration-ms="6178" started-at="2021-05-15T15:48:15 IST" finished-at="2021-05-15T15:48:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhoyar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bbbvcg45@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="captureScreenShot" is-config="true" duration-ms="0" started-at="2021-05-15T15:48:21 IST" finished-at="2021-05-15T15:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="getCookies()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="getCookies" is-config="true" duration-ms="49" started-at="2021-05-15T15:48:21 IST" finished-at="2021-05-15T15:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method status="PASS" signature="addToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="addToCartTest" duration-ms="24193" started-at="2021-05-15T15:48:21 IST" finished-at="2021-05-15T15:48:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sujeet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suj.gw1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="captureScreenShot" is-config="true" duration-ms="0" started-at="2021-05-15T15:48:45 IST" finished-at="2021-05-15T15:48:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="getCookies()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="getCookies" is-config="true" duration-ms="9" started-at="2021-05-15T15:48:45 IST" finished-at="2021-05-15T15:48:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method status="PASS" signature="shoptest(java.lang.String, java.lang.String)[pri:3, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="shoptest" duration-ms="9024" started-at="2021-05-15T15:48:45 IST" finished-at="2021-05-15T15:48:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[455011]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoptest -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="captureScreenShot" is-config="true" duration-ms="1" started-at="2021-05-15T15:48:54 IST" finished-at="2021-05-15T15:48:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="getCookies()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="getCookies" is-config="true" duration-ms="11" started-at="2021-05-15T15:48:54 IST" finished-at="2021-05-15T15:48:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method status="PASS" signature="checkouttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="checkouttest" duration-ms="16211" started-at="2021-05-15T15:48:54 IST" finished-at="2021-05-15T15:49:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CJC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karve]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nanded City]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[455011]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8275088133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkouttest -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="captureScreenShot" is-config="true" duration-ms="1" started-at="2021-05-15T15:49:11 IST" finished-at="2021-05-15T15:49:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="deleteCookies" is-config="true" duration-ms="1" started-at="2021-05-15T15:49:11 IST" finished-at="2021-05-15T15:49:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="closeDatabaseConnection()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="closeDatabaseConnection" is-config="true" duration-ms="1" started-at="2021-05-15T15:49:11 IST" finished-at="2021-05-15T15:49:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDatabaseConnection -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.cjc.DWS.Tests.MainTest@5ed828d]" name="closeDriver" is-config="true" duration-ms="1" started-at="2021-05-15T15:49:11 IST" finished-at="2021-05-15T15:49:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.cjc.DWS.Tests.MainTest -->
+    </test> <!-- TestMain -->
+  </suite> <!-- Suite -->
+</testng-results>

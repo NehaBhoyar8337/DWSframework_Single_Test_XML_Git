@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestMain">
+  
+  <parameter name="url" value="http://demowebshop.tricentis.com/register"></parameter>
+  
+  <parameter name="fname" value="Neha"></parameter>
+  <parameter name="lname" value="Bhoyar"></parameter>
+   <parameter name="emailid" value="bbbvcg45@gmail.com"></parameter>
+    <parameter name="password" value="123456789"></parameter>
+    <parameter name="Cpassword" value="123456789"></parameter>
+  
+  <parameter name="rname" value="Sujeet"></parameter>
+  <parameter name="rmail" value="Suj.gw1@gmail.com"></parameter>
+  <parameter name="bqunt" value="2"></parameter>
+  <parameter name="cqnt" value="2"></parameter>
+  <parameter name="jlnth" value="55"></parameter>
+  
+  <parameter name="Countrybill" value="India"></parameter>
+  <parameter name="Zipcode" value="455011"></parameter>
+  
+  <parameter name="Companyname" value="CJC"></parameter>
+  <parameter name="Cityname" value="Pune"></parameter>
+  <parameter name="addr1" value="Karve"></parameter>
+  <parameter name="addr2" value="Nanded City"></parameter>
+  <parameter name="Mobno" value="8275088133"></parameter>
+ 
+    <classes>
+      <class name="com.cjc.DWS.Tests.MainTest"/>
+    </classes>
+  </test> <!-- TestMain -->
+</suite> <!-- Suite -->
